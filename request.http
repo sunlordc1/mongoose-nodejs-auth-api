@@ -1,0 +1,19 @@
+
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "username":"sunlordc1",
+    "password":"sunlordc1"
+}
+### 
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "username":"sunlordc1",
+    "password":"sunlordc1"
+}
+### 
+GET http://localhost:3000/api/auth/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MTdiYzA0YTY1ZjIxMDlkMjcyMWE2ZjciLCJpYXQiOjE2MzU1MDExMTl9.QjsXUlPwYhPkqyYCzMUjHb6Xur8IEdIqvgvzmcdq0hE
